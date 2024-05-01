@@ -63,7 +63,6 @@
     width: 400px;
     border-radius: 10%;
     background-color: ivory;
-
 }
 
 .item {
@@ -72,9 +71,9 @@
 
 
 .item> .btn {
-    width: 40px;
-    height: 40px;
-    display:inline; 
+    width: 50px;
+    height: 50px;
+    display: inline-block; 
 }
 
 .strike{
@@ -88,8 +87,9 @@
 }
 
 .delete{
+    width: 50px;
     text-align: center;
-    font-size: 0.8em;
+    font-size: 0.9em;
     background-color:ivory;
 }
 

@@ -11,6 +11,8 @@ document.querySelector(".add>.btn").addEventListener("click", function(){
     const tickBtn = document.createElement("button");
     tickBtn.classList.add("strike", "btn");    
     tickBtn.innerText = "X";
+    tickBtn.style.marginRight = "4px";
+
     container.appendChild(tickBtn);
 
     const inner = document.createElement("span");
@@ -24,6 +26,7 @@ document.querySelector(".add>.btn").addEventListener("click", function(){
     const delBtn = document.createElement("button");
     delBtn.classList.add("delete", "btn");    
     delBtn.innerText = "🗑️";
+    delBtn.style.marginLeft = "1px";
     container.appendChild(delBtn);
   
     
