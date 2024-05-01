@@ -1,0 +1,127 @@
+
+.container{
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 1.75em;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.inner{
+    margin-top: 10px;
+    width: 50%;
+    font-size: 1.2em;
+}
+
+.top{
+    display: flex;
+    flex-wrap: wrap-reverse;
+    align-items: center;
+    background-color:burlywood;
+    
+}
+
+.header{
+    text-align: center; 
+}
+
+.clock{
+    font-size: 1.5em;
+    flex-shrink: 0;
+    margin-bottom: 10px;
+    text-align: right;
+
+}
+
+.header {
+    font-family: 'Outfit', sans-serif;
+    width: 75%;
+    font-size: 3rem;
+}
+
+
+.list {
+    background-color: bisque;
+    display: flex;
+    padding: 5px;
+    flex-direction: column;
+}
+
+
+.add {
+    margin: left;
+    width: 50%;
+    padding: 10px 10px 10px 0px;
+}
+
+.item>span{
+    border: 1px solid burlywood;
+    padding: 5px;
+    display: inline-block;
+    width: 400px;
+    border-radius: 10%;
+    background-color: ivory;
+
+}
+
+.item {
+    padding: 5px;
+}
+
+
+.item> .btn {
+    width: 40px;
+    height: 40px;
+    display:inline; 
+}
+
+.strike{
+    font-size: 1em;
+    background-color: ivory;
+    color:ivory;
+}
+
+.completed{
+    color: black;
+}
+
+.delete{
+    text-align: center;
+    font-size: 0.8em;
+    background-color:ivory;
+}
+
+.addItem {
+    background-color: thistle;
+    font-size: 1em;
+}
+
+.done {
+    text-decoration: line-through;
+}
+
+.delete:hover{
+    background-color:#df2c14 ;
+    border: 1px solid grey; 
+}
+
+.strike:hover{
+    background-color: white;
+}
+
+.addItem:hover{
+    color:white;
+}
+
+.btn:active{
+    transform:translateY(2px);
+}
+
+
+
+
+
+
+
